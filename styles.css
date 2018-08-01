@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.principal{
+  background-image: url('image.jpeg');
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  overflow: hidden;
+}
+.content{
+  text-align: center;
+  color: white;
+  padding-top: 18%;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.content h1{
+  font-size: 60px;
+  padding: 15px;
+}
+.content p{
+  font-size: 25px;
+  letter-spacing: 3px
+  padding: 15px;
+  margin-bottom: 35px;
+}
+.content a{
+  font-size: 30px;
+  padding: 15px 20px;
+  border: 1px solid;
+  color: white;
+  text-decoration: none;
+}
+.content a:hover{
+  background-color: rgba(12, 37, 113, 0.51);
+}
+
+.text{
+  padding: 15px;
+  font-size: 23px;
+}
